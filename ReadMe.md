@@ -4,6 +4,10 @@ A collection of useful styles implemented in [@vanilla-extract](https://github.c
 
 ## Usage:
 
+## Installation
+
+`npm install @michemayer/vanilla-extract-styles`
+
 ### Import styles
 ```typescript
     import { sprinkles, vars } from '@michemayer/vanilla-extract-styles'
