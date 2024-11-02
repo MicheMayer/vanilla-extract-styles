@@ -1,4 +1,4 @@
-# vanilla-extract-styles
+# @michemayer/vanilla-extract-styles
 
 A collection of useful styles implemented in [@vanilla-extract](https://github.com/vanilla-extract-css/vanilla-extract) aimed at standardizing design principals across repos.
 
@@ -6,7 +6,7 @@ A collection of useful styles implemented in [@vanilla-extract](https://github.c
 
 ### Import styles
 ```typescript
-    import { sprinkles, vars } from '@miche-mayer/vanilla-extract-styles'
+    import { sprinkles, vars } from '@michemayer/vanilla-extract-styles'
 
     // ... integrate in code here
 ```
@@ -27,4 +27,4 @@ Set credentials.
 `npm set "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN"`
 
 Publish a new version of this package
-`npm publish`
+`npm publish    `
