@@ -1,4 +1,4 @@
-import type { FontFamily } from '@styles/properties/font-faces.property'
+import type { FontFamily } from '@properties/font-faces.property'
 import { createThemeContract } from '@vanilla-extract/css'
 
 export type TypographyContract = {

@@ -1,4 +1,4 @@
-import type { FontSizeContract } from '@styles/contracts/font-size.contract.css'
+import type { FontSizeContract } from '@contracts/font-size.contract.css'
 
 /**
  * Object with all available font sizes and their corresponding values for

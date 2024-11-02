@@ -1,13 +1,13 @@
 import { globalStyle, assignVars } from '@vanilla-extract/css'
 import type { StyleRule } from '@vanilla-extract/css'
-import { fontSizeContract } from '@styles/contracts/font-size.contract.css'
+import { fontSizeContract } from '@contracts/font-size.contract.css'
 import {
   fontSizesFrom3Xl,
   fontSizesMdTo3Xl,
   fontSizesXsToSm,
-} from '@styles/properties/font-sizes.property'
-import type { Breakpoint } from '@styles/properties/breakpoints.property'
-import { mediaQueries } from '@styles/properties/media-queries.property'
+} from '@properties/font-sizes.property'
+import type { Breakpoint } from '@properties/breakpoints.property'
+import { mediaQueries } from '@properties/media-queries.property'
 
 type CSSProps = Omit<StyleRule, '@media' | '@supports'>
 type ResponsiveStyle = Partial<Record<Breakpoint, CSSProps>>

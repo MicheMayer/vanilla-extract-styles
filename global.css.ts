@@ -4,10 +4,10 @@
  */ 
 
 /* CSS Reset */
-import '@styles/global/reset.css'
+import '@global/reset.css'
 
 /* Import font faces */
-import '@styles/global/font-faces.css'
+import '@global/font-faces.css'
 
 /* Setup responsive font sizes */
-import '@styles/global/font-sizes.css'
+import '@global/font-sizes.css'

@@ -1,5 +1,5 @@
-import { breakpoints } from '@styles/properties/breakpoints.property'
-import type { Breakpoint } from '@styles/properties/breakpoints.property'
+import { breakpoints } from '@properties/breakpoints.property'
+import type { Breakpoint } from '@properties/breakpoints.property'
 
 /** Object with mediaQueries corresponding to breakpoints */
 export const mediaQueries = Object.entries(breakpoints)

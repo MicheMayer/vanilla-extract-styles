@@ -1,5 +1,5 @@
-import type { SizeVariant } from '@styles/properties/size-variant.property';
-import { sizeVariantNames } from '@styles/properties/size-variant.property';
+import type { SizeVariant } from '@properties/size-variant.property';
+import { sizeVariantNames } from '@properties/size-variant.property';
 
 /** Names of all available breakpoints */
 export const breakpointNames = sizeVariantNames;
