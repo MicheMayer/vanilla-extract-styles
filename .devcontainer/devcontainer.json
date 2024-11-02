@@ -1,0 +1,29 @@
+{
+	"name": "vanilla-extract-styles",
+	"build": {
+		"dockerfile": "./dockerfile",
+		"context": ".."
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"git.path": "/usr/bin/git"
+			},
+			"extensions": [
+				"naumovs.color-highlight",
+				"spmeesseman.vscode-taskexplorer",
+				"esbenp.prettier-vscode",
+				"GitHub.copilot",
+				"ms-vscode.vscode-typescript-next"
+			]
+		}
+	},
+	"workspaceFolder": "/usr/projects/vanilla-extract-styles",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/usr/projects/vanilla-extract-styles,type=bind",
+	"mounts": [
+		"source=node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+	], 
+	"containerEnv": {
+		"NODE_ENV": "development"
+	}
+}
