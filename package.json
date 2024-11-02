@@ -1,5 +1,5 @@
 {
-  "name": "vanilla-extract-styles",
+  "name": "@michemayer/vanilla-extract-styles",
   "version": "1.0.0",
   "description": "Basic styling for web components utilizing vanilla-extract",
   "main": "index.ts",
@@ -17,7 +17,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MicheMayer/vanilla-extract-styles"
+    "url": "https://github.com/michemayer/vanilla-extract-styles"
   },
     "publishConfig": {
     "registry": "https://npm.pkg.github.com"

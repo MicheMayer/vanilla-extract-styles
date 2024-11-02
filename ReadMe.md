@@ -21,3 +21,10 @@ import 'global.css.ts'
 
 // rest of your implementation
 ```
+
+## Contribute
+Set credentials.
+`npm set "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN"`
+
+Publish a new version of this package
+`npm publish`
