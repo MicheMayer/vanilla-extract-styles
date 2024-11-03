@@ -1,6 +1,6 @@
 {
   "name": "@michemayer/vanilla-extract-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic styling for web components utilizing vanilla-extract",
   "main": "index.ts",
   "dependencies": {
