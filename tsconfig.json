@@ -12,7 +12,7 @@
             "@properties/*": [
                 "src/properties/*"
             ],
-            "@types": [
+            "@customtypes": [
                 "src/types/index.ts"
             ],
         },
