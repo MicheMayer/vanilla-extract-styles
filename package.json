@@ -1,6 +1,6 @@
 {
   "name": "@michemayer/vanilla-extract-styles",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Basic styling for web components utilizing vanilla-extract",
   "author": {
     "name": "Miche Mayer",
@@ -9,14 +9,13 @@
   "license": "ISC",
   "main": "index.ts",
   "exports": {
-    ".": {
-      "import": "./index.ts",
-      "types": "./index.ts",
-      "require": "./index.ts",
-      "default": "./index.ts"
+    "dist": {
+      "import": "./index.js",
+      "types": "./index.d.js",
+      "require": "./index.js",
+      "default": "./index.js"
     },
-    "./globals.css": "./globals.css.ts",
-    "./globals.css.ts": "./globals.css.ts"
+    "dist/globals.css": "./globals.css.js"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.16.0",
@@ -27,7 +26,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",

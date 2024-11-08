@@ -1,7 +1,7 @@
 import { createSprinkles, defineProperties } from '@vanilla-extract/sprinkles'
-import type { Breakpoint } from '@styles/properties/breakpoints.property'
-import { breakpoints } from '@styles/properties/breakpoints.property'
-import { vars } from '@styles/vars.css'
+import type { Breakpoint } from '@properties/breakpoints.property'
+import { breakpoints } from '@properties/breakpoints.property'
+import { vars } from 'vars.css'
 
 interface ResponsiveConditions {
   /** Breakpoints and their corresponding media queries */

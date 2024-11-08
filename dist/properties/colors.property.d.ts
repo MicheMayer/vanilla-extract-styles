@@ -1,0 +1,91 @@
+import type { ThemeColor } from '@contracts/color.contract.css';
+export type TintsAndShades = {
+    '060': string;
+    '070': string;
+    '080': string;
+    '090': string;
+    '110': string;
+    '100': string;
+    '120': string;
+    '130': string;
+    '140': string;
+};
+type ColorValues<ColorName extends string> = {
+    [K in `${ColorName}${keyof TintsAndShades}`]: string;
+};
+interface Params<ColorName extends string> {
+    /** The baseline color to create tints and shades from. */
+    baseline: `#${string}`;
+    /** The name of the color, used to prefix the tints and shades */
+    name: ColorName;
+}
+/**
+ * Helper that creates four tints and shades from a given baseline.
+ *
+ * @returns Object with tint and shades for the given baseline
+ *
+ * @example
+ * ```ts
+ * createTintAndShades({baseline: ##55b7f0, prefix: 'myColor'});
+ * =>
+ * {myColor60: #66899e, myColor70: #4c758e ...}
+ * ```
+ */
+export declare const createTintAndShades: <ColorName extends string>({ baseline, name, }: Params<ColorName>) => ColorValues<ColorName>;
+/** All common colors, that are not theme specific */
+export declare const colors: {
+    readonly white: "#ffffff";
+    readonly black: "#000000";
+    readonly transparent: "transparent";
+    readonly inherit: "inherit";
+    readonly mark060: string;
+    readonly mark070: string;
+    readonly mark080: string;
+    readonly mark090: string;
+    readonly mark110: string;
+    readonly mark100: string;
+    readonly mark120: string;
+    readonly mark130: string;
+    readonly mark140: string;
+    readonly skeletonLight060: string;
+    readonly skeletonLight070: string;
+    readonly skeletonLight080: string;
+    readonly skeletonLight090: string;
+    readonly skeletonLight110: string;
+    readonly skeletonLight100: string;
+    readonly skeletonLight120: string;
+    readonly skeletonLight130: string;
+    readonly skeletonLight140: string;
+    readonly oldIvory060: string;
+    readonly oldIvory070: string;
+    readonly oldIvory080: string;
+    readonly oldIvory090: string;
+    readonly oldIvory110: string;
+    readonly oldIvory100: string;
+    readonly oldIvory120: string;
+    readonly oldIvory130: string;
+    readonly oldIvory140: string;
+    readonly graphite060: string;
+    readonly graphite070: string;
+    readonly graphite080: string;
+    readonly graphite090: string;
+    readonly graphite110: string;
+    readonly graphite100: string;
+    readonly graphite120: string;
+    readonly graphite130: string;
+    readonly graphite140: string;
+    readonly whiteSmoke060: string;
+    readonly whiteSmoke070: string;
+    readonly whiteSmoke080: string;
+    readonly whiteSmoke090: string;
+    readonly whiteSmoke110: string;
+    readonly whiteSmoke100: string;
+    readonly whiteSmoke120: string;
+    readonly whiteSmoke130: string;
+    readonly whiteSmoke140: string;
+};
+/** Type of a global, theme unspecific color */
+export type GlobalColor = keyof typeof colors;
+/** Type of a color, including theme and common colors */
+export type Color = GlobalColor | ThemeColor;
+export {};

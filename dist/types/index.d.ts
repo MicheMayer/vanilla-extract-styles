@@ -1,0 +1,13 @@
+/** record types */
+export type * from '@properties/breakpoints.property';
+export type * from '@properties/colors.property';
+export type * from '@properties/font-faces.property';
+export type * from '@properties/font-sizes.property';
+export type * from '@properties/font-weights.property';
+export type * from '@properties/max-widths.property';
+export type * from '@properties/media-queries.property';
+export type * from '@properties/shadows.property';
+export type * from '@properties/size-variant.property';
+export type * from '@properties/spaces.property';
+/** additional types */
+export type * from './records.types';
