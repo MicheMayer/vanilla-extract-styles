@@ -1,5 +1,5 @@
 import type { StyleRule } from '@vanilla-extract/css';
-import type { Breakpoint } from '@properties/breakpoints.property';
+import type { Breakpoint } from '../properties/breakpoints.property';
 type CSSProps = Omit<StyleRule, '@media' | '@supports'>;
 type ResponsiveStyle = Partial<Record<Breakpoint, CSSProps>>;
 /**

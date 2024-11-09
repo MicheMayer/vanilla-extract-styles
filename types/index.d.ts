@@ -1,6 +1,6 @@
-import { sprinkles } from 'sprinkles.css';
-import { vars } from 'vars.css';
-export type * from 'types';
+import { sprinkles } from './sprinkles.css';
+import { vars } from './vars.css';
+export type * from './types';
 export { sprinkles, vars };
 declare const _default: {
     sprinkles: ((props: {
@@ -276,7 +276,7 @@ declare const _default: {
         properties: Set<"alignItems" | "backgroundColor" | "boxShadow" | "color" | "display" | "flexDirection" | "flexWrap" | "fontFamily" | "fontSize" | "fontWeight" | "height" | "justifyContent" | "marginBottom" | "marginLeft" | "marginRight" | "marginTop" | "maxWidth" | "minHeight" | "paddingBottom" | "paddingLeft" | "paddingRight" | "paddingTop" | "position" | "rowGap" | "textAlign" | "width" | "gap" | "margin" | "padding" | "marginX" | "marginY" | "paddingX" | "paddingY">;
     };
     vars: {
-        breakpoints: Record<import("types").SizeVariant, string>;
+        breakpoints: Record<import("./types").SizeVariant, string>;
         spaces: {
             readonly none: "0px";
             readonly auto: "auto";

@@ -1,4 +1,4 @@
-import type { FontFamily } from '@properties/font-faces.property';
+import type { FontFamily } from '../properties/font-faces.property';
 export type TypographyContract = {
     primaryFontFamily: FontFamily;
     secondaryFontFamily: FontFamily;

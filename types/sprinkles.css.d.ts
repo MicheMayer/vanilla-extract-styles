@@ -1,4 +1,4 @@
-import type { Breakpoint } from '@properties/breakpoints.property';
+import type { Breakpoint } from './properties/breakpoints.property';
 interface ResponsiveConditions {
     /** Breakpoints and their corresponding media queries */
     conditions: {
