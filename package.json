@@ -1,6 +1,6 @@
 {
   "name": "@michemayer/vanilla-extract-styles",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Basic styling for web components utilizing vanilla-extract",
   "author": {
     "name": "Miche Mayer",
@@ -10,7 +10,7 @@
   "exports": {
     ".": {
       "import": "./lib/index.ts",
-      "types": "./lib/index.d.ts",
+      "types": "./types/index.d.ts",
       "require": "./lib/index.ts",
       "default": "./lib/index.ts"
     },

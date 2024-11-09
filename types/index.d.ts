@@ -1,6 +1,5 @@
 import { sprinkles } from './sprinkles.css';
 import { vars } from './vars.css';
-export type * from './types';
 export { sprinkles, vars };
 declare const _default: {
     sprinkles: ((props: {

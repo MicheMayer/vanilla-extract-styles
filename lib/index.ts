@@ -1,7 +1,5 @@
-import { sprinkles } from 'sprinkles.css'
-import { vars } from 'vars.css'
-
-export type * from 'types'
+import { sprinkles } from './sprinkles.css'
+import { vars } from './vars.css'
 
 export { sprinkles, vars }
 
