@@ -16,7 +16,7 @@
                 "types/index.ts"
             ],
         },
-        "outDir": "dist",
+        "outDir": "types",
         // Enable strict mode. This enables a few options at a time, see https://www.typescriptlang.org/tsconfig#strict for a list.
         "strict": true,
         // Enable top-level await, and other modern ESM features.
@@ -25,7 +25,7 @@
         // Enable module resolution without file extensions on relative paths, for things like npm package imports.
         "moduleResolution": "Bundler",
         // Allow importing TypeScript files using their native extension (.ts(x)).
-        "allowImportingTsExtensions": false,
+        "allowImportingTsExtensions": true,
         // Enable JSON imports.
         "resolveJsonModule": true,
         // Enforce the usage of type-only imports when needed, which helps avoiding bundling issues.
@@ -33,9 +33,8 @@
         // Ensure that each file can be transpiled without relying on other imports.
         // This is redundant with the previous option, however it ensures that it's on even if someone disable `verbatimModuleSyntax`
         "isolatedModules": true,
-        // emit source maps
-        "noEmit": false,
-        // emit type declarations
+        // emit type declarations to make if more accessible to consumers
+        "emitDeclarationOnly": true,
         "declaration": true,
         // Report an error when importing a file using a casing different from another import of the same file.
         "forceConsistentCasingInFileNames": true,

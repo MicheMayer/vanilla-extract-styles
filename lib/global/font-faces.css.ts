@@ -8,3 +8,5 @@ fontFaces.forEach((fontFace: FontFace) => globalFontFace(fontFace.fontFamily, {
   fontStyle: fontFace.fontStyle,
   fontDisplay: 'swap',
 }))
+
+export default fontFaces
