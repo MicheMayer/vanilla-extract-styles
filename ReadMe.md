@@ -2,6 +2,8 @@
 
 A collection of useful styles implemented in [@vanilla-extract](https://github.com/vanilla-extract-css/vanilla-extract) aimed at standardizing design principals across repos.
 
+Beware that this is typescript-only package at the moment.
+
 ## Usage:
 
 ## Installation
@@ -11,6 +13,13 @@ A collection of useful styles implemented in [@vanilla-extract](https://github.c
 ### Import styles
 ```typescript
     import { sprinkles, vars } from '@michemayer/vanilla-extract-styles'
+
+    // ... integrate in code here
+```
+
+### Import types
+```typescript
+    import type { Color } from '@michemayer/vanilla-extract-styles'
 
     // ... integrate in code here
 ```
@@ -31,4 +40,4 @@ Set credentials.
 `npm set "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN"`
 
 Publish a new version of this package
-`npm publish    `
+`npm run prepublish && npm publish`
