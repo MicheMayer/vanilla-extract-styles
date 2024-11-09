@@ -1,6 +1,6 @@
 {
   "name": "@michemayer/vanilla-extract-styles",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Basic styling for web components utilizing vanilla-extract",
   "author": {
     "name": "Miche Mayer",
@@ -9,10 +9,11 @@
   "license": "ISC",
   "exports": {
     ".": {
-      "import": "./lib/index.ts",
       "types": "./types/index.d.ts",
-      "require": "./lib/index.ts",
       "default": "./lib/index.ts"
+    },
+    "./*": {
+      "types": "./types/*"
     },
     "./globals.css": "./lib/globals.css.ts"
   },
