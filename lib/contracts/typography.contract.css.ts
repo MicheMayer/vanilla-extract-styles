@@ -6,9 +6,11 @@ export type TypographyContract = {
     secondaryFontFamily: FontFamily,
 };
 
+/** Type of the typography contract a theme has to fulfill */
 const properties = {
-    primaryFontFamily: 'Bookman Old Style',
-    secondaryFontFamily: 'Harlow Solid',
+    primaryFontFamily: '',
+    secondaryFontFamily: '',
 } as const satisfies TypographyContract;
 
+/** Typography contract, to be able to use theme specific fonts */
 export const typographyContract = createThemeContract(properties)

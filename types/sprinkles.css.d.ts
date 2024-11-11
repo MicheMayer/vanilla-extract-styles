@@ -25,6 +25,18 @@ export declare const responsiveProperties: {
     styles: {
         alignItems: {
             values: {
+                baseline: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 stretch: {
                     defaultClass: string;
                     conditions: {
@@ -62,18 +74,6 @@ export declare const responsiveProperties: {
                     };
                 };
                 "flex-start": {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                baseline: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -245,30 +245,6 @@ export declare const responsiveProperties: {
         };
         fontSize: {
             values: {
-                inherit: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                default: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -342,6 +318,18 @@ export declare const responsiveProperties: {
                     };
                 };
                 "3xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                default: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -389,34 +377,22 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                inherit: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
             };
         };
         gap: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -501,7 +477,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -553,30 +553,6 @@ export declare const responsiveProperties: {
         };
         rowGap: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -661,7 +637,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -857,30 +857,6 @@ export declare const responsiveProperties: {
         };
         marginBottom: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -965,7 +941,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -1017,30 +1017,6 @@ export declare const responsiveProperties: {
         };
         marginLeft: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -1125,7 +1101,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -1177,30 +1177,6 @@ export declare const responsiveProperties: {
         };
         marginRight: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -1285,7 +1261,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -1337,30 +1337,6 @@ export declare const responsiveProperties: {
         };
         marginTop: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -1445,7 +1421,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -1497,18 +1497,6 @@ export declare const responsiveProperties: {
         };
         maxWidth: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -1581,6 +1569,18 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                none: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 full: {
                     defaultClass: string;
                     conditions: {
@@ -1597,30 +1597,6 @@ export declare const responsiveProperties: {
         };
         paddingBottom: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -1705,7 +1681,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -1757,30 +1757,6 @@ export declare const responsiveProperties: {
         };
         paddingLeft: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -1865,7 +1841,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -1917,30 +1917,6 @@ export declare const responsiveProperties: {
         };
         paddingRight: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -2025,7 +2001,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -2077,30 +2077,6 @@ export declare const responsiveProperties: {
         };
         paddingTop: {
             values: {
-                none: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
-                auto: {
-                    defaultClass: string;
-                    conditions: {
-                        xs: string;
-                        sm: string;
-                        md: string;
-                        lg: string;
-                        xl: string;
-                        "2xl": string;
-                        "3xl": string;
-                    };
-                };
                 xs: {
                     defaultClass: string;
                     conditions: {
@@ -2185,7 +2161,31 @@ export declare const responsiveProperties: {
                         "3xl": string;
                     };
                 };
+                auto: {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
                 "4xl": {
+                    defaultClass: string;
+                    conditions: {
+                        xs: string;
+                        sm: string;
+                        md: string;
+                        lg: string;
+                        xl: string;
+                        "2xl": string;
+                        "3xl": string;
+                    };
+                };
+                none: {
                     defaultClass: string;
                     conditions: {
                         xs: string;
@@ -2382,27 +2382,27 @@ export declare const responsiveProperties: {
  * Sprinkles function to be further processed in the atoms()-utility
  */
 export declare const sprinkles: ((props: {
-    color?: "inherit" | "black" | "transparent" | "white" | "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | {
-        default?: "inherit" | "black" | "transparent" | "white" | "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | undefined;
-        hover?: "inherit" | "black" | "transparent" | "white" | "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | undefined;
+    color?: "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | "transparent" | "inherit" | "white" | "black" | {
+        default?: "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | "transparent" | "inherit" | "white" | "black" | undefined;
+        hover?: "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | "transparent" | "inherit" | "white" | "black" | undefined;
     } | undefined;
-    backgroundColor?: "inherit" | "black" | "transparent" | "white" | "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | {
-        default?: "inherit" | "black" | "transparent" | "white" | "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | undefined;
-        hover?: "inherit" | "black" | "transparent" | "white" | "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | undefined;
+    backgroundColor?: "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | "transparent" | "inherit" | "white" | "black" | {
+        default?: "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | "transparent" | "inherit" | "white" | "black" | undefined;
+        hover?: "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | "transparent" | "inherit" | "white" | "black" | undefined;
     } | undefined;
-    boxShadow?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | {
-        default?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | undefined;
-        hover?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | undefined;
+    boxShadow?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | {
+        default?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | undefined;
+        hover?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | undefined;
     } | undefined;
 } & {
-    alignItems?: "stretch" | "center" | "flex-end" | "flex-start" | "baseline" | {
-        xs?: "stretch" | "center" | "flex-end" | "flex-start" | "baseline" | undefined;
-        sm?: "stretch" | "center" | "flex-end" | "flex-start" | "baseline" | undefined;
-        md?: "stretch" | "center" | "flex-end" | "flex-start" | "baseline" | undefined;
-        lg?: "stretch" | "center" | "flex-end" | "flex-start" | "baseline" | undefined;
-        xl?: "stretch" | "center" | "flex-end" | "flex-start" | "baseline" | undefined;
-        "2xl"?: "stretch" | "center" | "flex-end" | "flex-start" | "baseline" | undefined;
-        "3xl"?: "stretch" | "center" | "flex-end" | "flex-start" | "baseline" | undefined;
+    alignItems?: "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | {
+        xs?: "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
+        sm?: "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
+        md?: "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
+        lg?: "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
+        xl?: "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
+        "2xl"?: "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
+        "3xl"?: "baseline" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
     } | undefined;
     display?: "none" | "flex" | "block" | "inline" | "inline-flex" | {
         xs?: "none" | "flex" | "block" | "inline" | "inline-flex" | undefined;
@@ -2431,32 +2431,32 @@ export declare const sprinkles: ((props: {
         "2xl"?: "nowrap" | "wrap" | "wrap-reverse" | undefined;
         "3xl"?: "nowrap" | "wrap" | "wrap-reverse" | undefined;
     } | undefined;
-    fontSize?: "inherit" | "default" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | {
-        xs?: "inherit" | "default" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | undefined;
-        sm?: "inherit" | "default" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | undefined;
-        md?: "inherit" | "default" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | undefined;
-        lg?: "inherit" | "default" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | undefined;
-        xl?: "inherit" | "default" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | undefined;
-        "2xl"?: "inherit" | "default" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | undefined;
-        "3xl"?: "inherit" | "default" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | undefined;
+    fontSize?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "default" | "4xl" | "5xl" | "6xl" | "inherit" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "default" | "4xl" | "5xl" | "6xl" | "inherit" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "default" | "4xl" | "5xl" | "6xl" | "inherit" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "default" | "4xl" | "5xl" | "6xl" | "inherit" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "default" | "4xl" | "5xl" | "6xl" | "inherit" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "default" | "4xl" | "5xl" | "6xl" | "inherit" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "default" | "4xl" | "5xl" | "6xl" | "inherit" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "default" | "4xl" | "5xl" | "6xl" | "inherit" | undefined;
     } | undefined;
-    gap?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    gap?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    rowGap?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    rowGap?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
     height?: "auto" | "screen" | "full" | {
         xs?: "auto" | "screen" | "full" | undefined;
@@ -2485,86 +2485,86 @@ export declare const sprinkles: ((props: {
         "2xl"?: "space-around" | "space-between" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
         "3xl"?: "space-around" | "space-between" | "stretch" | "center" | "flex-end" | "flex-start" | undefined;
     } | undefined;
-    marginBottom?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    marginBottom?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    marginLeft?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    marginLeft?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    marginRight?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    marginRight?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    marginTop?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    marginTop?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    maxWidth?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full" | {
-        xs?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full" | undefined;
-        sm?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full" | undefined;
-        md?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full" | undefined;
-        lg?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full" | undefined;
-        xl?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full" | undefined;
-        "2xl"?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full" | undefined;
-        "3xl"?: "none" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full" | undefined;
+    maxWidth?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | "full" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | "full" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | "full" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | "full" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | "full" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | "full" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | "full" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "none" | "full" | undefined;
     } | undefined;
-    paddingBottom?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    paddingBottom?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    paddingLeft?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    paddingLeft?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    paddingRight?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    paddingRight?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    paddingTop?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    paddingTop?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
     position?: "fixed" | "absolute" | "relative" | {
         xs?: "fixed" | "absolute" | "relative" | undefined;
@@ -2593,59 +2593,59 @@ export declare const sprinkles: ((props: {
         "2xl"?: "auto" | "full" | undefined;
         "3xl"?: "auto" | "full" | undefined;
     } | undefined;
-    margin?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    margin?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    marginX?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    marginX?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    marginY?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    marginY?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    padding?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    padding?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    paddingX?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    paddingX?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
-    paddingY?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | {
-        xs?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        sm?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        md?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        lg?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        xl?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "2xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
-        "3xl"?: "none" | "auto" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "px" | "3xs" | "2xs" | undefined;
+    paddingY?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | {
+        xs?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        sm?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        md?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        lg?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        xl?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "2xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
+        "3xl"?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "auto" | "4xl" | "none" | "px" | "3xs" | "2xs" | undefined;
     } | undefined;
 } & {
     fontWeight?: "normal" | "bold" | undefined;

@@ -5,8 +5,4 @@ export type FontFace = {
     fontStyle: string;
     preload?: boolean;
 };
-export type FontFamily = 'Bookman Old Style' | 'Harlow Solid';
-/**
- * Object with all available font-faces and their metadata
- */
-export declare const fontFaces: FontFace[];
+export type FontFamily = string;

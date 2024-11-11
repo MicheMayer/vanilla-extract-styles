@@ -38,4 +38,5 @@ type InferColorGroup<T extends string> = T extends `${infer Prefix}Default`
 
 export type ColorGroup = InferColorGroup<ThemeColor>
 
+/** Color contract, to be able to use theme specific colors */
 export const colorContract = createThemeContract(properties)
