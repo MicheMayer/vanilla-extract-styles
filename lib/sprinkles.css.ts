@@ -177,7 +177,7 @@ const remainingProperties = defineProperties({
 })
 
 /**
- * Sprinkles function to be further processed in the atoms()-utility
+ * Sprinkles function to be further processed in the sprinkles()-utility
  */
 export const sprinkles = createSprinkles(
   hoverableProperties,
@@ -185,4 +185,7 @@ export const sprinkles = createSprinkles(
   remainingProperties
 )
 
+/**
+ * Type that holds the possible values for the "sprinkles"-utility
+ */
 export type Sprinkles = Parameters<typeof sprinkles>[0]

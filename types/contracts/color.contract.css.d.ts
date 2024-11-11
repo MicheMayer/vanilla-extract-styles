@@ -24,6 +24,7 @@ export type ColorContract = typeof properties;
 export type ThemeColor = keyof typeof colorContract;
 type InferColorGroup<T extends string> = T extends `${infer Prefix}Default` ? Prefix : never;
 export type ColorGroup = InferColorGroup<ThemeColor>;
+/** Color contract, to be able to use theme specific colors */
 export declare const colorContract: {
     primaryOneDefault: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
     primaryOneLight: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;

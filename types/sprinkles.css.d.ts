@@ -2379,7 +2379,7 @@ export declare const responsiveProperties: {
     };
 };
 /**
- * Sprinkles function to be further processed in the atoms()-utility
+ * Sprinkles function to be further processed in the sprinkles()-utility
  */
 export declare const sprinkles: ((props: {
     color?: "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | "transparent" | "inherit" | "white" | "black" | {
@@ -2653,5 +2653,8 @@ export declare const sprinkles: ((props: {
 }) => string) & {
     properties: Set<"alignItems" | "backgroundColor" | "boxShadow" | "color" | "display" | "flexDirection" | "flexWrap" | "fontFamily" | "fontSize" | "fontWeight" | "height" | "justifyContent" | "marginBottom" | "marginLeft" | "marginRight" | "marginTop" | "maxWidth" | "minHeight" | "paddingBottom" | "paddingLeft" | "paddingRight" | "paddingTop" | "position" | "rowGap" | "textAlign" | "width" | "gap" | "margin" | "padding" | "marginX" | "marginY" | "paddingX" | "paddingY">;
 };
+/**
+ * Type that holds the possible values for the "sprinkles"-utility
+ */
 export type Sprinkles = Parameters<typeof sprinkles>[0];
 export {};
