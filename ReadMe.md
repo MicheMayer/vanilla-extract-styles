@@ -25,32 +25,32 @@ Beware that this is typescript-only package at the moment.
 ```
 
 ### Use global css reset
-Import `global/reset.css.ts` in your root source file to apply a css reset.
+Import `global/reset.css` in your root source file to apply a css reset.
 This reset file is designed to be as little opinionated as possible.
 
 `index.ts`:
 ```typescript
-import '@michemayer/vanilla-extract-styles/global/reset.css.ts'
+import '@michemayer/vanilla-extract-styles/global/reset.css'
 
 // rest of your implementation
 ```
 
 ### Set global font sizes
-Import `global/font-sizes.css.ts` in your root source file to set global font-sizes as variables.
+Import `global/font-sizes.css` in your root source file to set global font-sizes as variables.
 
 `index.ts`:
 ```typescript
-import '@michemayer/vanilla-extract-styles/global/font-sizes.css.ts'
+import '@michemayer/vanilla-extract-styles/global/font-sizes.css'
 
 // rest of your implementation
 ```
 
 ### Load font faces
-Import `global/font-faces.css.ts` in your root source file and load custom font-faces.
+Import `global/font-faces.css` in your root source file and load custom font-faces.
 
 `index.ts`:
 ```typescript
-import { customFontFaces } from '@michemayer/vanilla-extract-styles/global/font-faces.css.ts'
+import { customFontFaces } from '@michemayer/vanilla-extract-styles/global/font-faces.css'
 
 const fontFaces: FontFace[] = [
     {
