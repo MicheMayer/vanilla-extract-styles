@@ -10,7 +10,7 @@ interface ResponsiveConditions {
       /** The media query */
       '@media': string
     }
-  };
+  }
   /** The default condition */
   defaultCondition: Extract<Breakpoint, 'xs'>
   /** Array of breakpoints */

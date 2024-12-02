@@ -32,7 +32,6 @@
     "@vanilla-extract/sprinkles": "^1.6.3"
   },
   "devDependencies": {
-    "rollup": "^4.25.0",
     "tsc-alias": "^1.8.10",
     "typescript": "^5.6.2"
   },
