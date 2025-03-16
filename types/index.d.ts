@@ -408,12 +408,8 @@ declare const _default: {
         };
     };
     utils: {
-        colors: {
-            colorUtils: typeof import("./utils/color.utils");
-        };
-        themes: {
-            themeUtils: typeof import("./utils/theme.utils");
-        };
+        colors: typeof import("./utils/color.utils");
+        themes: typeof import("./utils/theme.utils");
     };
 };
 export default _default;
