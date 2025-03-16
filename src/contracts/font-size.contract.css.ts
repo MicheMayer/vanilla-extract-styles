@@ -1,5 +1,6 @@
 import { createThemeContract } from '@vanilla-extract/css'
 
+/** Default values of typograhy contract */
 const properties = {
   default: '',
   xs: '',

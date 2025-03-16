@@ -1,3 +1,4 @@
+/** Default values of typograhy contract */
 declare const properties: {
     default: string;
     xs: string;

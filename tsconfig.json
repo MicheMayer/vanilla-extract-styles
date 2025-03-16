@@ -6,6 +6,9 @@
             "@contracts/*": [
                 "contracts/*"
             ],
+            "@contracts": [
+                "contracts/index.ts"
+            ],
             "@global/*": [
                 "global/*"
             ],
@@ -14,6 +17,9 @@
             ],
             "@customtypes": [
                 "types/index.ts"
+            ],
+            "@utils/*": [
+                "utils/*"
             ],
         },
         "outDir": "lib",

@@ -1,36 +1,37 @@
 import { createThemeContract } from '@vanilla-extract/css'
 
+/** Default values of color contract */
 const properties = {
-    primaryOneDefault: '',
-    primaryOneLight: '',
-    primaryOneDark: '',
+  primaryOneDefault: '',
+  primaryOneLight: '',
+  primaryOneDark: '',
 
-    secondaryDefault: '',
-    secondaryLight: '',
-    secondaryDark: '',
+  secondaryDefault: '',
+  secondaryLight: '',
+  secondaryDark: '',
 
-    textDefault: '',
-    textLight: '',
-    textDark: '',
+  textDefault: '',
+  textLight: '',
+  textDark: '',
 
-    dangerDefault: '',
-    dangerLight: '',
-    dangerDark: '',
+  dangerDefault: '',
+  dangerLight: '',
+  dangerDark: '',
 
-    successDefault: '',
-    successLight: '',
-    successDark: '',
+  successDefault: '',
+  successLight: '',
+  successDark: '',
 
-    warningDefault: '',
-    warningLight: '',
-    warningDark: '',
+  warningDefault: '',
+  warningLight: '',
+  warningDark: '',
 }
 
 /** Theme contract */
-export type ColorContract = typeof properties;
+export type ColorContract = typeof properties
 
 /** Theme specific color */
-export type ThemeColor = keyof typeof colorContract;
+export type ThemeColor = keyof typeof colorContract
 
 type InferColorGroup<T extends string> = T extends `${infer Prefix}Default`
   ? Prefix

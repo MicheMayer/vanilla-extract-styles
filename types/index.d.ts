@@ -1,9 +1,11 @@
 import { sprinkles } from './sprinkles.css';
 import type { Sprinkles as SprinkleVars } from './sprinkles.css';
 import { vars } from './vars.css';
+import contracts from '@contracts';
+import utils from './utils';
 export type * from './types';
 export type Sprinkles = SprinkleVars;
-export { sprinkles, vars };
+export { sprinkles, vars, contracts, utils };
 declare const _default: {
     sprinkles: ((props: {
         color?: "primaryOneDefault" | "primaryOneLight" | "primaryOneDark" | "secondaryDefault" | "secondaryLight" | "secondaryDark" | "textDefault" | "textLight" | "textDark" | "dangerDefault" | "dangerLight" | "dangerDark" | "successDefault" | "successLight" | "successDark" | "warningDefault" | "warningLight" | "warningDark" | "whiteSmoke060" | "whiteSmoke070" | "whiteSmoke080" | "whiteSmoke090" | "whiteSmoke110" | "whiteSmoke100" | "whiteSmoke120" | "whiteSmoke130" | "whiteSmoke140" | "graphite060" | "graphite070" | "graphite080" | "graphite090" | "graphite110" | "graphite100" | "graphite120" | "graphite130" | "graphite140" | "oldIvory060" | "oldIvory070" | "oldIvory080" | "oldIvory090" | "oldIvory110" | "oldIvory100" | "oldIvory120" | "oldIvory130" | "oldIvory140" | "skeletonLight060" | "skeletonLight070" | "skeletonLight080" | "skeletonLight090" | "skeletonLight110" | "skeletonLight100" | "skeletonLight120" | "skeletonLight130" | "skeletonLight140" | "mark060" | "mark070" | "mark080" | "mark090" | "mark110" | "mark100" | "mark120" | "mark130" | "mark140" | "transparent" | "inherit" | "white" | "black" | {
@@ -404,6 +406,53 @@ declare const _default: {
                 readonly primaryFontFamily: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
                 readonly secondaryFontFamily: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
             };
+        };
+    };
+    contracts: {
+        colorContract: {
+            primaryOneDefault: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            primaryOneLight: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            primaryOneDark: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            secondaryDefault: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            secondaryLight: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            secondaryDark: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            textDefault: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            textLight: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            textDark: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            dangerDefault: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            dangerLight: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            dangerDark: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            successDefault: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            successLight: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            successDark: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            warningDefault: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            warningLight: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            warningDark: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+        };
+        fontSizeContract: {
+            default: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            xs: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            sm: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            md: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            lg: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            xl: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            '2xl': `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            '3xl': `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            '4xl': `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            '5xl': `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            '6xl': `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+        };
+        typographyContract: {
+            readonly primaryFontFamily: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+            readonly secondaryFontFamily: `var(--${string})` | `var(--${string}, ${string})` | `var(--${string}, ${number})`;
+        };
+    };
+    utils: {
+        colors: {
+            colorUtils: typeof import("./utils/color.utils");
+        };
+        themes: {
+            themeUtils: typeof import("./utils/theme.utils");
         };
     };
 };

@@ -1,3 +1,4 @@
+/** Default values of color contract */
 declare const properties: {
     primaryOneDefault: string;
     primaryOneLight: string;

@@ -1,4 +1,4 @@
-/** record types */
+/** property types */
 export type * from '@properties/breakpoints.property'
 export type * from '@properties/colors.property'
 export type * from '@properties/font-faces.property'
@@ -9,5 +9,12 @@ export type * from '@properties/media-queries.property'
 export type * from '@properties/shadows.property'
 export type * from '@properties/size-variant.property'
 export type * from '@properties/spaces.property'
+
+/** contract types */
+export type * from '@contracts'
+
+/** utils types */
+export type * from '@utils/color.utils'
+
 /** additional types */
 export type * from './records.types'
