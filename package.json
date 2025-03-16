@@ -1,6 +1,6 @@
 {
   "name": "@michemayer/vanilla-extract-styles",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Basic styling for web components utilizing vanilla-extract",
   "author": {
     "name": "Miche Mayer",
