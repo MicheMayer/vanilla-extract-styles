@@ -6,9 +6,6 @@
             "@contracts/*": [
                 "contracts/*"
             ],
-            "@contracts": [
-                "contracts/index.ts"
-            ],
             "@global/*": [
                 "global/*"
             ],

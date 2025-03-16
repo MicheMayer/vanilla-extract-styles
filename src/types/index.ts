@@ -11,7 +11,9 @@ export type * from '@properties/size-variant.property'
 export type * from '@properties/spaces.property'
 
 /** contract types */
-export type * from '@contracts'
+export type * from '@contracts/color.contract.css'
+export type * from '@contracts/font-size.contract.css'
+export type * from '@contracts/typography.contract.css'
 
 /** utils types */
 export type * from '@utils/color.utils'
