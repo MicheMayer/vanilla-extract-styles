@@ -1,0 +1,28 @@
+{
+	"name": "vanilla-extract-styles-integration",
+	"build": {
+		"dockerfile": "./dockerfile",
+		"context": ".."
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"git.path": "/usr/bin/git"
+			},
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"GitHub.copilot",
+				"ms-vscode.vscode-typescript-next"
+			]
+		}
+	},
+	"workspaceFolder": "/usr/projects/vanilla-extract-styles/integration",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/usr/projects/vanilla-extract-styles/integration,type=bind,consistency=delegated",
+	"mounts": [
+		"source=node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume",
+		"source=${localWorkspaceFolder}/../packages/,target=${containerWorkspaceFolder}/packages/,readonly,type=bind,consistency=cached"
+	],
+	"containerEnv": {
+		"NODE_ENV": "development"
+	}
+}

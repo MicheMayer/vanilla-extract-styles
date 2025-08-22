@@ -11,7 +11,6 @@
 			},
 			"extensions": [
 				"naumovs.color-highlight",
-				"spmeesseman.vscode-taskexplorer",
 				"esbenp.prettier-vscode",
 				"GitHub.copilot",
 				"ms-vscode.vscode-typescript-next"
@@ -19,7 +18,7 @@
 		}
 	},
 	"workspaceFolder": "/usr/projects/vanilla-extract-styles",
-	"workspaceMount": "source=${localWorkspaceFolder},target=/usr/projects/vanilla-extract-styles,type=bind",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/usr/projects/vanilla-extract-styles,type=bind,consistency=delegated",
 	"mounts": [
 		"source=node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
 	], 

@@ -1,4 +1,4 @@
-import type { FontFamily } from '../properties/font-faces.property';
+import type { FontFamily } from '@properties/font-faces.property';
 /** Type of the typography contract a theme has to fulfill */
 export type TypographyContract = {
     primaryFontFamily: FontFamily;

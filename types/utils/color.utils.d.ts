@@ -1,4 +1,4 @@
-import type { TintsAndShades } from '../properties/colors.property';
+import type { TintsAndShades } from '@properties/colors.property';
 type ColorValues<ColorName extends string> = {
     [K in `${ColorName}${keyof TintsAndShades}`]: string;
 };

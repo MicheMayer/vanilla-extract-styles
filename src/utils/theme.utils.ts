@@ -3,8 +3,8 @@ import { colorContract, type ColorContract } from '@contracts/color.contract.css
 import { typographyContract, type TypographyContract } from '@contracts/typography.contract.css'
 
 export const createTheme = (
-    colorProperties: ColorContract,
-    typographyProperties: TypographyContract,
+    colors: ColorContract,
+    typography: TypographyContract,
 ) =>
 createVanillaExtractTheme(
     {
@@ -12,7 +12,7 @@ createVanillaExtractTheme(
         typography: typographyContract,
     },
     {
-        colors: colorProperties,
-        typography: typographyProperties,
+        colors: colors,
+        typography: typography,
     }
 )

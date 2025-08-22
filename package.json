@@ -37,7 +37,8 @@
   },
   "scripts": {
     "prepublish": "tsc && tsc-alias",
-    "test": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "pack-locally": "npm pack --pack-destination ./packages"
   },
   "repository": {
     "type": "git",

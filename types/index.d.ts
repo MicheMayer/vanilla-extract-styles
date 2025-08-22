@@ -2,7 +2,7 @@ import { sprinkles } from './sprinkles.css';
 import type { Sprinkles as SprinkleVars } from './sprinkles.css';
 import { vars } from './vars.css';
 import utils from './utils';
-export type * from './types';
+export type * from 'types';
 export type Sprinkles = SprinkleVars;
 export { sprinkles, vars, utils };
 declare const _default: {
@@ -279,7 +279,7 @@ declare const _default: {
         properties: Set<"alignItems" | "backgroundColor" | "boxShadow" | "color" | "display" | "flexDirection" | "flexWrap" | "fontFamily" | "fontSize" | "fontWeight" | "height" | "justifyContent" | "marginBottom" | "marginLeft" | "marginRight" | "marginTop" | "maxWidth" | "minHeight" | "paddingBottom" | "paddingLeft" | "paddingRight" | "paddingTop" | "position" | "rowGap" | "textAlign" | "width" | "gap" | "margin" | "padding" | "marginX" | "marginY" | "paddingX" | "paddingY">;
     };
     vars: {
-        breakpoints: Record<import("./types").SizeVariant, string>;
+        breakpoints: Record<import("types").SizeVariant, string>;
         spaces: {
             readonly none: "0px";
             readonly auto: "auto";

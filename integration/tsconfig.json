@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            
+        },
+        // Enable strict mode. This enables a few options at a time, see https://www.typescriptlang.org/tsconfig#strict for a list.
+        "strict": true,
+        // Enable top-level await, and other modern ESM features.
+        "target": "es2024",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        // Enable module resolution without file extensions on relative paths, for things like npm package imports.
+        // Allow importing TypeScript files using their native extension (.ts(x)).
+        "allowImportingTsExtensions": false,
+        "esModuleInterop": true,
+        // Skip typechecking libraries and .d.ts files
+        "skipLibCheck": true,
+        "jsx": "react-jsx"
+    }
+}

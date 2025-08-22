@@ -1,4 +1,4 @@
-import type { SizeVariant } from './size-variant.property';
+import type { SizeVariant } from '@properties/size-variant.property';
 /** Names of all available breakpoints */
 export declare const breakpointNames: readonly SizeVariant[];
 /** Type that holds possible values for a breakpoint */

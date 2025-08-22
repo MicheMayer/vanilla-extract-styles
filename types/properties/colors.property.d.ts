@@ -1,4 +1,4 @@
-import type { ThemeColor } from '../contracts/color.contract.css';
+import type { ThemeColor } from '@contracts/color.contract.css';
 export type TintsAndShades = {
     '060': string;
     '070': string;

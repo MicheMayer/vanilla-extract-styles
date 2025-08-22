@@ -2,7 +2,8 @@
 
 A collection of useful styles implemented in [@vanilla-extract](https://github.com/vanilla-extract-css/vanilla-extract) aimed at standardizing design principals across repos.
 
-Beware that this is typescript-only package at the moment.
+> [!NOTE]
+> Beware that this is typescript-only package at the moment.
 
 ## Usage:
 
@@ -80,3 +81,10 @@ Set credentials.
 
 Publish a new version of this package
 `npm run prepublish && npm publish`
+
+### Testing package integration locally
+This Repository provides a Dev Container under `./integration/`.
+
+Use the command `npm run pack-locally` to pack a new version of this package.
+
+In the container use `npm install packages/michemayer-vanilla-extract-styles-1.x.x.tgz` (replace version number according to package.json of the package). 
