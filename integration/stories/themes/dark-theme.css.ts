@@ -13,6 +13,7 @@ export const colors = {
   ...utils.colors.createTintAndShades({ baseline: '#9e2a2f', name: 'rust' }),
   ...utils.colors.createTintAndShades({ baseline: '#b4cdb4', name: 'sage' }),
   ...utils.colors.createTintAndShades({ baseline: '#ffac00', name: 'sun' }),
+  ...utils.colors.createTintAndShades({ baseline: '#00aaff', name: 'ocean' }),
 } as const
 
 export const colorProperties = {
@@ -20,11 +21,11 @@ export const colorProperties = {
   primaryOneLight: colors.spacegray080,
   primaryOneDark: colors.spacegray120,
 
-  secondaryDefault: colors.spacegray100,
-  secondaryLight: colors.spacegray080,
-  secondaryDark: colors.spacegray120,
+  secondaryDefault: colors.ocean140,
+  secondaryLight: colors.ocean100,
+  secondaryDark: colors.ocean120,
 
-  textDefault: colors.spacegray100,
+  textDefault: colors.ivory100,
   textLight: colors.ivory090,
   textDark: colors.ivory140,
 
@@ -49,4 +50,5 @@ export const typographyProperties = {
 export default utils.themes.createTheme(
     colorProperties,
     typographyProperties,
+    
 );

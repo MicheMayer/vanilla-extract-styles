@@ -1,27 +1,40 @@
 import { recipe } from '@vanilla-extract/recipes'
+import { style } from '@vanilla-extract/css'
+import {vars, sprinkles} from '@michemayer/vanilla-extract-styles'
 
 export type Size = 'small' | 'medium' | 'large'
 
 export type Color = 'primary' | 'secondary'
 
+// {
+        
+//         display: 'inline-block',
+//         cursor: 'pointer',
+//         border: 0,
+//         borderRadius: '3em',
+//         fontWeight: 700,
+//         lineHeight: 1,
+//     }
+
 export const variants = recipe({
-    base: {
-        display: 'inline-block',
-        cursor: 'pointer',
-        border: 0,
-        borderRadius: '3em',
-        fontWeight: 700,
-        lineHeight: 1,
-    },
+    base: style(
+        {
+            borderRadius: '3em',
+        },
+        sprinkles({
+            display: 'inline',
+            fontWeight: 'bold',
+        })
+    ),
     variants: {
         size: {
-            small: { fontSize: '12px', padding: '10px 16px' },
-            medium: { fontSize: '14px', padding: '11px 20px' },
-            large: { fontSize: '16px', padding: '12px 24px' },
+            small: { fontSize: vars.typography.fontSizes.sm, padding: vars.spaces.sm },
+            medium: { fontSize: vars.typography.fontSizes.md, padding: vars.spaces.md },
+            large: { fontSize: vars.typography.fontSizes.lg, padding: vars.spaces.lg },
         },
         color: {
-            primary: { backgroundColor: 'blue', color: 'white' },
-            secondary: { backgroundColor: 'gray', color: 'black' }
+            primary: { backgroundColor: vars.colors.primaryOneDefault, color: vars.colors.textDefault },
+            secondary: { backgroundColor: vars.colors.secondaryDefault, color: vars.colors.textDefault }
         }
     }
 })

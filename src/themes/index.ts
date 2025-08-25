@@ -10,6 +10,7 @@ createVanillaExtractTheme(
     {
         colors: colorContract,
         typography: typographyContract,
+
     },
     {
         colors: colors,

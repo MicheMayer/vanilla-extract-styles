@@ -13,20 +13,21 @@ export const colors = {
   ...utils.colors.createTintAndShades({ baseline: '#9e2a2f', name: 'rust' }),
   ...utils.colors.createTintAndShades({ baseline: '#b4cdb4', name: 'sage' }),
   ...utils.colors.createTintAndShades({ baseline: '#ffac00', name: 'sun' }),
+  ...utils.colors.createTintAndShades({ baseline: '#00aaff', name: 'ocean' }),
 } as const
 
 export const colorProperties = {
-  primaryOneDefault: colors.spacegray100,
-  primaryOneLight: colors.spacegray080,
-  primaryOneDark: colors.spacegray120,
+  primaryOneDefault: colors.ivory100,
+  primaryOneLight: colors.ivory080,
+  primaryOneDark: colors.ivory120,
 
-  secondaryDefault: colors.ivory120,
-  secondaryLight: colors.ivory090,
-  secondaryDark: colors.ivory140,
+  secondaryDefault: colors.ocean100,
+  secondaryLight: colors.ocean080,
+  secondaryDark: colors.ocean120,
 
   textDefault: colors.spacegray100,
-  textLight: colors.ivory090,
-  textDark: colors.ivory140,
+  textLight: colors.spacegray080,
+  textDark: colors.spacegray120,
 
   dangerDefault: colors.rust100,
   dangerLight: colors.rust060,
