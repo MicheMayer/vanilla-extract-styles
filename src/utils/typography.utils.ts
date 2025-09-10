@@ -1,13 +1,7 @@
-import { globalStyle, assignVars } from '@vanilla-extract/css'
 import type { StyleRule } from '@vanilla-extract/css'
-import { fontSizeContract } from '@contracts/font-size.contract.css'
-import {
-  fontSizesFrom3Xl,
-  fontSizesMdTo3Xl,
-  fontSizesXsToSm,
-} from '@properties/font-sizes.property'
 import type { Breakpoint } from '@properties/breakpoints.property'
 import { mediaQueries } from '@properties/media-queries.property'
+import { fontSizes, type FontSizeContract } from '@contracts/font-size.contract.css'
 
 type CSSProps = Omit<StyleRule, '@media' | '@supports'>
 type ResponsiveStyle = Partial<Record<Breakpoint, CSSProps>>
@@ -22,19 +16,17 @@ const makeMediaQuery =
   (breakpoint: Breakpoint) => (styles?: CSSProps) =>
     !styles || Object.keys(styles).length === 0
       ? {}
-      : {
-        [mediaQueries[breakpoint]]: styles,
-      }
+      : { [mediaQueries[breakpoint]]: styles }
 
 /**
  * Helper to generate responsive styles to be used within vanilla-extracts
  * style()-function. Use only, when styles can't be responsively generated
- * with the atoms()-utility.
+ * with the sprinkles()-utility.
  *
  * @param styles Object containing styles for specific breakpoint
  * @returns Style rule to be passed to vanilla-extracts style()-function
  */
-export const responsiveStyle = (styles: ResponsiveStyle): StyleRule => ({
+export const responsiveFontSizes = (styles: ResponsiveStyle): StyleRule => ({
   ...styles.xs,
   ...(styles.sm ||
     styles.md ||
@@ -55,12 +47,16 @@ export const responsiveStyle = (styles: ResponsiveStyle): StyleRule => ({
     : {}),
 })
 
-/** Add responsive font sizes to :root */
-globalStyle(
-  ':root',
-  responsiveStyle({
-    xs: { vars: assignVars(fontSizeContract, fontSizesXsToSm) },
-    md: { vars: assignVars(fontSizeContract, fontSizesMdTo3Xl) },
-    '3xl': { vars: assignVars(fontSizeContract, fontSizesFrom3Xl) },
-  })
-)
+export const generateFontSizes = (xsSize: number, maxSize: number): FontSizeContract => {
+  const scaleFactor = Math.pow(maxSize / xsSize, 1 / (Object.keys(fontSizes).length - 1))
+  const sizes = Object.keys(fontSizes)
+    .filter(key => key !== 'default')
+    .reduce((acc, key, index) => {
+      const size = xsSize * Math.pow(scaleFactor, index)
+      return { ...acc, [key]: `${size}rem` }
+    }, {} as FontSizeContract)
+
+  sizes.default = sizes.md
+
+  return sizes satisfies FontSizeContract
+}

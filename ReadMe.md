@@ -12,6 +12,9 @@ A collection of useful styles implemented in [@vanilla-extract](https://github.c
 `npm install @michemayer/vanilla-extract-styles`
 
 ### Import styles
+Import `sprinkles` and `vars` from the package to use the styles.
+(see more details in the [vanilla-extract documentation](https://vanilla-extract.style/documentation/packages/sprinkles/))
+
 ```typescript
     import { sprinkles, vars } from '@michemayer/vanilla-extract-styles'
 
@@ -36,14 +39,45 @@ import '@michemayer/vanilla-extract-styles/global/reset.css'
 // rest of your implementation
 ```
 
-### Set global font sizes
-Import `global/font-sizes.css` in your root source file to set global font-sizes as variables.
+### Set a color theme
+Set a color theme by creating a color palette using the provided utility function.
 
 `index.ts`:
 ```typescript
-import '@michemayer/vanilla-extract-styles/global/font-sizes.css'
+import { themes, utils } from '@michemayer/vanilla-extract-styles'
+import type { ColorContract } from '@michemayer/vanilla-extract-styles'
 
-// rest of your implementation
+export const colors = {
+  ...utils.colors.createTintAndShades({ baseline: '#1a1a18', name: 'spacegray' }),
+} as const
+
+export const colorProperties = {
+  // ...
+  textDefault: colors.spacegray100,
+  textLight: colors.spacegray080,
+  textDark: colors.spacegray120,
+  //...
+} satisfies ColorContract;
+```
+
+### Set a typography theme
+Typography is handled in a separate theme.
+
+`index.ts`:
+```typescript
+import { themes } from '@michemayer/vanilla-extract-styles'
+import type { TypographyContract } from '@michemayer/vanilla-extract-styles'
+
+export const typographyProperties = {
+  primary: {
+    fontFamily: 'Verdana',
+    fontSize: '100%',
+  },
+  secondary: {
+    fontFamily: 'Roboto',
+    fontSize: '100%',
+  },
+} satisfies TypographyContract;
 ```
 
 ### Load font faces
@@ -59,7 +93,7 @@ const fontFaces: FontFace[] = [
         src: '/fonts/bookman_old_style/bookman_old_style.ttf',
         fontWeight: 'normal',
         fontStyle: 'normal',
-        preload: true,
+        preload: true, // optional, will add a <link rel="preload" ...> to the document head
     },
     {
         fontFamily: 'Harlow Solid',

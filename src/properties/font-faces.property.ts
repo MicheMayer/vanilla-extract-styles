@@ -7,3 +7,4 @@ export type FontFace = {
 }
 
 export type FontFamily = string
+export type BaseFontSize = `${number}%`

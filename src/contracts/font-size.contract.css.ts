@@ -1,7 +1,7 @@
 import { createThemeContract } from '@vanilla-extract/css'
 
 /** Default values of typograhy contract */
-const properties = {
+export const fontSizes = {
   default: '',
   xs: '',
   sm: '',
@@ -16,7 +16,7 @@ const properties = {
 }
 
 /** Type of the font size contract a responsive font set has to fulfill */
-export type FontSizeContract = typeof properties
+export type FontSizeContract = typeof fontSizes
 
 /** Font size contract, to be able to use auto responsive fonts */
-export const fontSizeContract = createThemeContract(properties)
+export const fontSizeContract = createThemeContract(fontSizes)

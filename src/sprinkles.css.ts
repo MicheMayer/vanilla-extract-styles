@@ -146,7 +146,7 @@ export const responsiveProperties = defineProperties({
   },
 })
 
-/** "Hoverable" properties provided to the "atoms"-utility function */
+/** "Hoverable" properties provided to the "sprinkles"-utility function */
 const hoverableProperties = defineProperties({
   conditions: {
     default: {},
@@ -169,10 +169,7 @@ const remainingProperties = defineProperties({
     /** Font weight of an element */
     fontWeight: vars.typography.fontWeights,
     /** Font family of an element */
-    fontFamily: {
-      primary: vars.typography.fonts.primaryFontFamily,
-      secondary: vars.typography.fonts.secondaryFontFamily,
-    },
+    fontFamily: vars.typography.fonts,
   },
 })
 

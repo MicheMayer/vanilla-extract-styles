@@ -1,6 +1,5 @@
-import { utils } from '@michemayer/vanilla-extract-styles'
+import { themes, utils } from '@michemayer/vanilla-extract-styles'
 import type { ColorContract } from '@michemayer/vanilla-extract-styles'
-import type { TypographyContract } from '@michemayer/vanilla-extract-styles'
 
 /**
  * Theme exclusive colors
@@ -42,12 +41,6 @@ export const colorProperties = {
   warningDark: colors.sun140,
 } satisfies ColorContract;
 
-export const typographyProperties = {
-  primaryFontFamily: 'Verdana',
-  secondaryFontFamily: 'Roboto',
-} satisfies TypographyContract;
-
-export default utils.themes.createTheme(
+export default themes.colors.createTheme(
     colorProperties,
-    typographyProperties,
 );

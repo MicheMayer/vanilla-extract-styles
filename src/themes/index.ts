@@ -1,19 +1,11 @@
-import { createTheme as createVanillaExtractTheme } from '@vanilla-extract/css'
-import { colorContract, type ColorContract } from '@contracts/color.contract.css'
-import { typographyContract, type TypographyContract } from '@contracts/typography.contract.css'
+import { createTheme as createColorTheme } from './color.theme'
+import { createTheme as createTypographyTheme } from './typography.theme'
 
-export const createTheme = (
-    colors: ColorContract,
-    typography: TypographyContract,
-) =>
-createVanillaExtractTheme(
-    {
-        colors: colorContract,
-        typography: typographyContract,
-
+export default {
+    colors: {
+        createTheme: createColorTheme,
     },
-    {
-        colors: colors,
-        typography: typography,
-    }
-)
+    typography: {
+        createTheme: createTypographyTheme,
+    },
+}

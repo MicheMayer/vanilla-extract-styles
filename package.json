@@ -1,6 +1,6 @@
 {
   "name": "@michemayer/vanilla-extract-styles",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "Basic styling for web components utilizing vanilla-extract",
   "author": {
     "name": "Miche Mayer",
@@ -38,7 +38,7 @@
   "scripts": {
     "prepublish": "tsc && tsc-alias",
     "typecheck": "tsc --noEmit",
-    "pack-locally": "npm pack --pack-destination ./packages"
+    "pack-locally": "npm run prepublish && npm pack --pack-destination ./packages"
   },
   "repository": {
     "type": "git",

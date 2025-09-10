@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/react-vite'
-import { themes } from '../stories/themes'
+import { colorThemes, typographyThemes } from '../stories/themes'
 
 const preview: Preview = {
   parameters: {
@@ -27,9 +27,9 @@ const preview: Preview = {
   decorators: [
     (Story, context) => {
       const selectedTheme = context.globals.theme || 'light';
-      const theme = themes[selectedTheme];
-      
-      return (<div className={theme}>
+      const theme = colorThemes[selectedTheme];
+
+      return (<div className={[theme, typographyThemes.default].join(' ')}>
         <Story />
       </div>);
     },
