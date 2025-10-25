@@ -1,50 +1,14 @@
 {
   "name": "@michemayer/vanilla-extract-styles",
-  "version": "1.0.12",
-  "description": "Basic styling for web components utilizing vanilla-extract",
-  "author": {
-    "name": "Miche Mayer",
-    "url": "https://miche-mayer.de"
-  },
-  "license": "ISC",
-  "exports": {
-    ".": {
-      "types": "./types/index.d.ts",
-      "default": "./lib/index.js"
-    },
-    "./global/*": {
-      "types": "./lib/global/*",
-      "default": "./lib/global/*"
-    }
-  },
-  "files": [
-    "lib/",
-    "types/",
-    "README.md",
-    "LICENSE"
+  "private": true,
+  "workspaces": [
+    "demo",
+    "package"
   ],
-  "dependencies": {
-    "polished": "^4.3.1"
-  },
-  "peerDependencies": {
-    "@vanilla-extract/css": "^1.16.0",
-    "@vanilla-extract/recipes": "^0.5.5",
-    "@vanilla-extract/sprinkles": "^1.6.3"
-  },
-  "devDependencies": {
-    "tsc-alias": "^1.8.10",
-    "typescript": "^5.6.2"
-  },
-  "scripts": {
-    "prepublish": "tsc && tsc-alias",
-    "typecheck": "tsc --noEmit",
-    "pack-locally": "npm run prepublish && npm pack --pack-destination ./packages"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/michemayer/vanilla-extract-styles"
-  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
   }
 }

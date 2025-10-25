@@ -1,22 +1,21 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
     "compilerOptions": {
-        "baseUrl": "src",
         "paths": {
             "@contracts/*": [
-                "contracts/*"
+                "./src/contracts/*"
             ],
             "@global/*": [
-                "global/*"
+                "./src/global/*"
             ],
             "@properties/*": [
-                "properties/*"
+                "./src/properties/*"
             ],
             "@customtypes": [
-                "types/index.ts"
+                "./src/types/index.ts"
             ],
             "@utils/*": [
-                "utils/*"
+                "./src/utils/*"
             ],
         },
         "outDir": "lib",
