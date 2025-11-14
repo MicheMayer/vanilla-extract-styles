@@ -3,7 +3,7 @@
 A collection of useful styles implemented in [@vanilla-extract](https://github.com/vanilla-extract-css/vanilla-extract) aimed at standardizing design principals across repos.
 
 > [!NOTE]
-> Beware that this is typescript-only package at the moment.
+> Beware that this is a es only package at the moment.
 
 ## Usage:
 
@@ -108,10 +108,3 @@ customFontFaces(fontFaces);
 
 // rest of your implementation
 ```
-
-## Contribute
-Set credentials.
-`npm set "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN"`
-
-Publish a new version of this package
-`npm run build && npm publish`

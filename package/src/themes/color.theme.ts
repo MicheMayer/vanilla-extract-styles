@@ -1,4 +1,4 @@
-import { createTheme as createVanillaExtractTheme, assignVars } from '@vanilla-extract/css'
+import { createTheme as createVanillaExtractTheme } from '@vanilla-extract/css'
 import { colorContract, type ColorContract } from '@contracts/color.contract.css'
 
 export const createTheme = (

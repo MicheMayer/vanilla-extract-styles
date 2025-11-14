@@ -1,6 +1,4 @@
 node_modules/
 package-lock.json
-packages/*
 !.gitkeep
-lib/
-types/
+dist/

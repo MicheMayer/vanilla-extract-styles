@@ -7,10 +7,3 @@ import utils from './utils'
 export type * from './types'
 export type Sprinkles = SprinkleVars
 export { sprinkles, vars, utils, themes }
-
-export default {
-    sprinkles,
-    vars,
-    utils,
-    themes,
-}
