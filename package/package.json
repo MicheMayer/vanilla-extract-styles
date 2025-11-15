@@ -1,6 +1,6 @@
 {
   "name": "@michemayer/vanilla-extract-styles",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Basic styling for web components utilizing vanilla-extract",
   "author": {
     "name": "Miche Mayer",
@@ -19,6 +19,10 @@
     ".": {
       "types": "./dist/dts/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./contracts/*": {
+      "types": "./dist/dts/contracts/*",
+      "default": "./dist/contracts/*"
     },
     "./global/*": {
       "types": "./dist/dts/global/*",

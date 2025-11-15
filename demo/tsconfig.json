@@ -1,10 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
     "compilerOptions": {
-        "baseUrl": "src",
-        "paths": {
-            
-        },
         // Enable strict mode. This enables a few options at a time, see https://www.typescriptlang.org/tsconfig#strict for a list.
         "strict": true,
         // Enable top-level await, and other modern ESM features.

@@ -4,6 +4,10 @@ import { fileURLToPath } from 'node:url'
 import typescript from '@rollup/plugin-typescript'
 import nodeResolve from '@rollup/plugin-node-resolve'
 import distDelete from 'rollup-plugin-delete'
+import tscAlias from 'rollup-plugin-tsc-alias';
+
+var outDir = path.resolve(import.meta.dirname, 'dist');
+var tsconfigFile = path.resolve(import.meta.dirname, './tsconfig.json');
 
 export default {
   input: Object.fromEntries(
@@ -20,7 +24,7 @@ export default {
   ),
   output: {
     format: 'es',
-    dir: `${import.meta.dirname}/dist`,
+    dir: outDir,
     exports: 'named',
   },
   external: [
@@ -29,10 +33,14 @@ export default {
     '@vanilla-extract/sprinkles',
   ],
   plugins: [
-    distDelete({ targets: path.resolve(import.meta.dirname, 'dist') }),
-    typescript({
-      tsconfig: path.resolve(import.meta.dirname, './tsconfig.json'),
-    }),
+    distDelete({ targets: outDir }),
     nodeResolve(),
+    typescript({
+      tsconfig: tsconfigFile,
+    }),
+    tscAlias({ 
+      configFile: tsconfigFile,
+      outDir: `${outDir}/dts`,
+    }),
   ],
 }
